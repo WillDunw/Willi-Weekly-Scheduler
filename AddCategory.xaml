@@ -1,0 +1,29 @@
+﻿<Window x:Class="AddCategory"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuickWPFMonthCalendar"
+        mc:Ignorable="d"
+        Title="AddCategory" Height="450" Width="800"
+        Closing="Window_Closing">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" FontWeight="Bold">Add Category</TextBlock>
+        
+        <Label Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0" FontWeight="Bold" FontSize="16">Category title</Label>
+        <TextBox Name="txb_categoryTitle" Grid.Row="1" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Center" MinHeight="25" Margin="20,0,20,0" VerticalAlignment="Center"></TextBox>
+
+        <Label Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="16" FontWeight="Bold">Category Type</Label>
+        <ComboBox Grid.Row="2" VerticalAlignment="Center" Name="cmb_categoryType" MinHeight="25" Margin="20,0,20,0"/>
+
+        <Button Grid.Row="4" HorizontalAlignment="Center" Name="btn_addCategory" Click="btn_addCategory_Click"
+                VerticalAlignment="Center" MinHeight="25" MaxWidth="250" Content="Add Categoory" MinWidth="100" Width="200"></Button>
+    </Grid>
+</Window>
