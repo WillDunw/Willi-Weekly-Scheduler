@@ -14,7 +14,7 @@ Before installing, ensure you have the following installed:
 
 1. **Clone the Repository:**
 
-`git clone https://github.com/YourUsername/YourWPFApp.git`
+`git clone https://github.com/WillDunw/Schedule-Planner-WPF.git`
 
 2. **Open the Project in Visual Studio:**
 - Open Visual Studio.
