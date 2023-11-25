@@ -44,4 +44,7 @@ Since I built this for my own personal use I tailored these features so they wou
 
 ## Main Technologies
 
-The app is built using WPF for the UI, Visual Basic as the programming language and SQLite as the database. The application was built using the MVP design pattern.
+- The UI was made using WPF and XAML markup.
+- The app itself was amde using Visual Basic .NET.
+- All database interactions are done using a local database in the form of SQLite.
+- The application was built using the MVP design pattern.
