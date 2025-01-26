@@ -1,50 +1,74 @@
-# Schedule-Planner-WPF
-A WPF scheduler app used to schedule events and view how you spend your time.
-I made this on my own time to help myself organize my time and tasks during school and see where I wasted the most time.
-I also wanted to pose myself the challenge of learning a new language in the form of Visual Basic .NET for this project.
+# Schedule-Planner-WPF  
 
-## How to Install
+**A personal WPF-based scheduler app to help organize tasks and track time usage effectively.**  
 
-### Prerequisites
-Before installing, ensure you have the following installed:
-- [Visual Studio](https://visualstudio.microsoft.com/) (recommended version: [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/))
-- [.NET Framework](https://dotnet.microsoft.com/download/dotnet-framework)
+I created this application during my school days to improve time management and identify areas where I was wasting time. Additionally, I challenged myself to learn a new programming language, **Visual Basic .NET**, while building this project.  
 
-### Installation Steps
+---
 
-1. **Clone the Repository:**
+## Features  
 
-`git clone https://github.com/WillDunw/Schedule-Planner-WPF.git`
+Schedule-Planner-WPF includes the following features tailored to my personal workflow:  
 
-2. **Open the Project in Visual Studio:**
-- Open Visual Studio.
-- Choose "Open a project or solution" and navigate to the directory where you cloned the repository.
-- Select the `.sln` file and click "Open."
+### **Event Management**  
+- Add individual events and categorize them for better organization.  
+- Edit or delete events directly from the day, week, or month views.  
 
-3. **Restore NuGet Packages:**
-- Once the project is open, right-click on the solution in the Solution Explorer.
-- Select "Restore NuGet Packages" to ensure all necessary packages are installed.
+### **Next Week Planner**  
+- Automatically detects the next Monday, allowing you to plan your tasks for the upcoming week efficiently.  
 
-4. **Build and Run the Application:**
-- Set the WPF project as the startup project.
-- Click the "Start" button or press `F5` to build and run the application.
+### **Day View**  
+- View and manage all your events for a single day in a calendar-style layout.  
 
-5. **Explore the App:**
-- Once the application is running, explore the various features and functionalities.
+### **Monthly View**  
+- A complete calendar view of all events for the month, with the ability to edit or explore specific days in detail.  
 
-## Main Features
+### **Weekly Time Breakdown**  
+- Visualize your time usage through a **pie chart** that shows the distribution of time across categories for the week.  
 
-Since I built this for my own personal use I tailored these features so they would be useful to me.
+---
 
-- Adding an event: you can schedule events individually and sort them based off of their category.
-- Next week planner: there is capability to detect when the next monday is and to allow you to schedule all your tasks up until that day.
-- Day view: you can view all your events for the day like a calendar and modify them however you need.
-- Monthly view: this is a calendar view of all your events for the month. You can edits events and view specific days from this view.
-- Weekly time breakdown: you can view your weekly distribution of time in the form of a pie chart to see where you spent the most time.
+## Installation  
 
-## Main Technologies
+### **Prerequisites**  
+Ensure the following tools are installed on your system:  
+- **Visual Studio** (recommended: Visual Studio Community Edition)  
+- **.NET Framework**  
 
-- The UI was made using WPF and XAML markup.
-- The app itself was amde using Visual Basic .NET.
-- All database interactions are done using a local database in the form of SQLite.
-- The application was built using the MVP design pattern.
+### **Installation Steps**  
+
+1. **Clone the Repository**  
+   ```bash  
+   git clone https://github.com/WillDunw/Schedule-Planner-WPF.git  
+
+2. **Open the Project in Visual Studio**  
+   - Launch Visual Studio.  
+   - Choose **"Open a project or solution"** and navigate to the directory where the repository was cloned.  
+   - Select the `.sln` file and open it.  
+
+3. **Restore NuGet Packages**  
+   - In the **Solution Explorer**, right-click on the solution.  
+   - Select **"Restore NuGet Packages"** to ensure all dependencies are installed.  
+
+4. **Build and Run the Application**  
+   - Set the WPF project as the startup project.  
+   - Press **F5** or click the **"Start"** button to build and launch the application.  
+
+5. **Explore the Application**  
+   - Use the app to organize tasks, manage schedules, and analyze your time usage.  
+
+---
+
+## Technologies Used  
+
+- **WPF and XAML** for the user interface.  
+- **Visual Basic .NET** for application logic.  
+- **SQLite** as the local database for storing events and schedules.  
+- **MVP (Model-View-Presenter)** design pattern to ensure a clean and modular architecture.  
+
+---
+
+## About the Project  
+
+Schedule-Planner-WPF is a project I designed for personal use. It reflects my focus on productivity, time management, and learning new technologies. While its core features were tailored to my own needs, the application can be a helpful tool for anyone looking to track and optimize their daily activities.  
+
